@@ -18,6 +18,27 @@ int main() {
 		a[i] = enter_value;
 	}
 
+	//sorting a
+	for (j = 0; j < quantity; j++) {      // main cycle
+		for (int i = 0; i < quantity - 1; i++) {  // checking next number to current element
+
+			if (a[i] > a[i + 1]) {
+
+				std::swap(a[i], a[i + 1]);
+
+			}
+		}
+	}
+
+	// print sorted a
+	printf("a_sorted = ");
+	for (int i = 0; i < quantity; i++) {
+		printf("%0.2f ", a[i]);
+	}
+	printf("\n");
+
+	/* ----------------------------------------------------------------------------------------------------- */
+
 	printf("Enter quantity of elements vector b = ");
 	scanf("%i", &quantity);
 
