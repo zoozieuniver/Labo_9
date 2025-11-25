@@ -48,5 +48,19 @@ int main() {
 		scanf("%f", &enter_value);
 		b[i] = enter_value;
 	}
+
+
+	// sorting b
+	for (i = 1; i < quantity; i++) {            //start from second element
+		for (j = i; j > 0 && b[j - 1] > b[j]; j--) {  //putting element to left
+		std::swap(b[j], b[j - 1]);
+		}
+	}
+
+	// printing sorted b
+	printf(" b_sorted = ");
+	for (i = 0; i < quantity; i++) {
+	printf("%0.2f ", b[i]);
+	}
 	return 0;
 }
