@@ -1,14 +1,3 @@
 ﻿  labo_9.cpp
-D:\Programming\Labo_9\Labo_9\labo_9.cpp(18,9): warning C4477: 'scanf' : format string '%f' requires an argument of type 'float *', but variadic argument 1 has type 'int *'
-D:\Programming\Labo_9\Labo_9\labo_9.cpp(19,15): warning C4244: 'argument': conversion from 'int' to '_Ty', possible loss of data
-D:\Programming\Labo_9\Labo_9\labo_9.cpp(19,15): warning C4244:         with
-D:\Programming\Labo_9\Labo_9\labo_9.cpp(19,15): warning C4244:         [
-D:\Programming\Labo_9\Labo_9\labo_9.cpp(19,15): warning C4244:             _Ty=float
-D:\Programming\Labo_9\Labo_9\labo_9.cpp(19,15): warning C4244:         ]
-D:\Programming\Labo_9\Labo_9\labo_9.cpp(27,9): warning C4477: 'scanf' : format string '%f' requires an argument of type 'float *', but variadic argument 1 has type 'int *'
-D:\Programming\Labo_9\Labo_9\labo_9.cpp(28,15): warning C4244: 'argument': conversion from 'int' to '_Ty', possible loss of data
-D:\Programming\Labo_9\Labo_9\labo_9.cpp(28,15): warning C4244:         with
-D:\Programming\Labo_9\Labo_9\labo_9.cpp(28,15): warning C4244:         [
-D:\Programming\Labo_9\Labo_9\labo_9.cpp(28,15): warning C4244:             _Ty=float
-D:\Programming\Labo_9\Labo_9\labo_9.cpp(28,15): warning C4244:         ]
+D:\Programming\Labo_9\Labo_9\labo_9.cpp(8,9): warning C4101: 'j': unreferenced local variable
   Labo_9.vcxproj -> D:\Programming\Labo_9\x64\Debug\Labo_9.exe

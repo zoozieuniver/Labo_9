@@ -1,30 +1,31 @@
 #define _CRT_SECURE_NO_WARNINGS
+
+#include <algorithm> // it's for std::swap
 #include <stdio.h>
-#include <vector>
 
 int main() {
 
-	int i, quantity, enter_value;
-	std::vector <float> a;
-	std::vector <float> b;
-	std::vector <float> a_sorted;
-	std::vector <float> b_sorted;
+	int i, j, quantity; float enter_value;
+	float a[10], b[10];
 
-	printf("Enter the quantity of massive a[]: ");
+	printf("Enter quantity of elements vector a = ");
 	scanf("%i", &quantity);
 
-	for (i = 0; i <= quantity - 1; i++) {
-		printf("Enter element a[%i]: ", i);
+	//puting values in vector a
+	for (i = 0; i < quantity; i++) {
+		printf("Enter a[%i]=", i);
 		scanf("%f", &enter_value);
-		a.push_back(enter_value);
+		a[i] = enter_value;
 	}
 
-	printf("Enter the quantity of massive b[]: ");
+	printf("Enter quantity of elements vector b = ");
 	scanf("%i", &quantity);
 
-	for (i = 0; i <= quantity - 1; i++) {
-		printf("Enter element b[%i]: ", i);
+	//putting values in vector b
+	for (i = 0; i < quantity; i++) {
+		printf("Enter b[%i]=", i);
 		scanf("%f", &enter_value);
-		b.push_back(enter_value);
+		b[i] = enter_value;
 	}
+	return 0;
 }
